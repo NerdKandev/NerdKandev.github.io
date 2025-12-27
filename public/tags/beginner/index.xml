@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Beginner on Trung Hau Blog</title><link>http://localhost:1313/tags/beginner/</link><description>Recent content in Beginner on Trung Hau Blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 15 Jan 2024 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/beginner/index.xml" rel="self" type="application/rss+xml"/><item><title>First Article</title><link>http://localhost:1313/articles/first-article/</link><pubDate>Mon, 15 Jan 2024 10:00:00 +0000</pubDate><guid>http://localhost:1313/articles/first-article/</guid><description>&lt;p&gt;This is the first article content. Hugo sections allow you to organize content into logical groups, and each section gets its own URL path.&lt;/p&gt;
+&lt;h2 id="what-are-hugo-sections"&gt;What are Hugo Sections?&lt;/h2&gt;
+&lt;p&gt;Hugo sections are a way to organize your content into logical groups. When you create a folder under &lt;code&gt;content/&lt;/code&gt;, Hugo automatically treats it as a section.&lt;/p&gt;
+&lt;h2 id="benefits-of-using-sections"&gt;Benefits of Using Sections&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Organization&lt;/strong&gt;: Keep related content together&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;URLs&lt;/strong&gt;: Automatic URL structure (&lt;code&gt;/articles/&lt;/code&gt;, &lt;code&gt;/news/&lt;/code&gt;, etc.)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Templates&lt;/strong&gt;: Custom layouts for different content types&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RSS&lt;/strong&gt;: Each section gets its own RSS feed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="example-structure"&gt;Example Structure&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;content/
+├── articles/
+│ ├── _index.md
+│ ├── first-article.md
+│ └── second-article.md
+└── news/
+ ├── _index.md
+ └── breaking-news.md
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This creates accessible URLs like:&lt;/p&gt;</description></item></channel></rss>

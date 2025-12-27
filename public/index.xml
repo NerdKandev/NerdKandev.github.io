@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Trung Hau Blog</title><link>http://localhost:1313/</link><description>Recent content on Trung Hau Blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 27 Dec 2025 18:00:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>Kiến trúc JVM và Cơ chế quản lý bộ nhớ chuyên sâu trong Java</title><link>http://localhost:1313/blog/jvm-archirecture/</link><pubDate>Sat, 27 Dec 2025 18:00:00 +0700</pubDate><guid>http://localhost:1313/blog/jvm-archirecture/</guid><description>&lt;p&gt;&lt;img src="http://localhost:1313/img/blog/jvm-architecture.png" alt="Kiến trúc JVM"&gt;&lt;/p&gt;
+&lt;h2 id="1-giới-thiệu-về-máy-ảo-java-jvm"&gt;1. Giới thiệu về máy ảo Java (JVM)&lt;/h2&gt;
+&lt;p&gt;JVM (Java Virtual Machine) là trái tim của nền tảng Java, đóng vai trò trung gian giữa chương trình Java và hệ điều hành. Chính JVM là yếu tố giúp Java thực hiện được khẩu hiệu nổi tiếng: &lt;strong&gt;“Write Once, Run Anywhere”&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Thay vì biên dịch trực tiếp sang mã máy của từng hệ điều hành như C/C++, Java được biên dịch thành &lt;strong&gt;Bytecode (.class)&lt;/strong&gt;. Bytecode này không phụ thuộc nền tảng, và JVM trên từng hệ điều hành sẽ chịu trách nhiệm:&lt;/p&gt;</description></item><item><title>Lập trình hướng đối tượng nâng cao: Từ Abstract Class đến Interface</title><link>http://localhost:1313/blog/java-oop/</link><pubDate>Fri, 26 Dec 2025 14:30:00 +0700</pubDate><guid>http://localhost:1313/blog/java-oop/</guid><description>&lt;p&gt;&lt;img src="http://localhost:1313/img/blog/java-oop.png" alt="Sự khác biết giữa abstract và interface"&gt;&lt;/p&gt;
+&lt;h2 id="1-bản-chất-của-tính-trừu-tượng-abstraction"&gt;1. Bản chất của tính Trừu tượng (Abstraction)&lt;/h2&gt;
+&lt;p&gt;Tính trừu tượng (Abstraction) là một trong 4 trụ cột của lập trình hướng đối tượng (OOP), cho phép lập trình viên tập trung vào &lt;strong&gt;cái gì&lt;/strong&gt; hệ thống làm được thay vì &lt;strong&gt;nó làm như thế nào&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Nói cách khác, trừu tượng giúp ẩn đi các chi tiết triển khai phức tạp và chỉ phơi bày những hành vi cần thiết cho bên sử dụng.&lt;/p&gt;</description></item><item><title>Phân tích hiệu năng các cấu trúc dữ liệu trong Java Collections</title><link>http://localhost:1313/blog/java-collections/</link><pubDate>Fri, 26 Dec 2025 16:45:00 +0700</pubDate><guid>http://localhost:1313/blog/java-collections/</guid><description>&lt;h2 id="1-tổng-quan-về-collections-framework"&gt;1. Tổng quan về Collections Framework&lt;/h2&gt;
+&lt;p&gt;Java Collections Framework (JCF) là một tập hợp các interface, class và thuật toán giúp lập trình viên lưu trữ, truy xuất và thao tác dữ liệu dạng tập hợp (collection of objects).&lt;/p&gt;
+&lt;p&gt;Trước khi có JCF, việc quản lý dữ liệu trong Java rất rời rạc. JCF ra đời nhằm:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Chuẩn hóa&lt;/strong&gt; cách làm việc với dữ liệu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Giảm số lượng code&lt;/strong&gt; tự viết (reusable code).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tăng hiệu năng&lt;/strong&gt; thông qua các thuật toán đã được tối ưu.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="các-interface-cốt-lõi"&gt;Các interface cốt lõi:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;List:&lt;/strong&gt; Dữ liệu có thứ tự, cho phép trùng lặp (ArrayList, LinkedList).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Set:&lt;/strong&gt; Không cho phép trùng lặp (HashSet, TreeSet).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Map:&lt;/strong&gt; Lưu trữ dữ liệu theo cặp Key–Value (HashMap, TreeMap).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2-sự-khác-biệt-về-hiệu-năng-giữa-list"&gt;2. Sự khác biệt về hiệu năng giữa List&lt;/h2&gt;
+&lt;p&gt;Việc chọn đúng loại List ảnh hưởng rất lớn đến tốc độ xử lý, đặc biệt với dữ liệu lớn.&lt;/p&gt;</description></item><item><title>Xử lý đa luồng và Concurrent Programming trong Java</title><link>http://localhost:1313/blog/java-threads/</link><pubDate>Fri, 26 Dec 2025 19:20:00 +0700</pubDate><guid>http://localhost:1313/blog/java-threads/</guid><description>&lt;p&gt;&lt;img src="http://localhost:1313/img/blog/java-threads.png" alt="Luồng trong java"&gt;&lt;/p&gt;
+&lt;h2 id="1-thread-là-gì"&gt;1. Thread là gì?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Thread (Luồng)&lt;/strong&gt; là đơn vị nhỏ nhất của quá trình thực thi trong một ứng dụng. Một chương trình Java có thể chứa nhiều thread chạy song song, chia sẻ cùng bộ nhớ Heap nhưng có Stack riêng biệt.&lt;/p&gt;
+&lt;p&gt;Đa luồng giúp ứng dụng phản hồi nhanh hơn, tận dụng tối đa CPU đa nhân và xử lý song song các tác vụ nặng như I/O hay Database.&lt;/p&gt;</description></item><item><title>Java 8+ Features: Làm chủ Stream API và Lambda Expression</title><link>http://localhost:1313/blog/java-8-streams/</link><pubDate>Fri, 26 Dec 2025 21:15:00 +0700</pubDate><guid>http://localhost:1313/blog/java-8-streams/</guid><description>&lt;p&gt;&lt;img src="http://localhost:1313/img/blog/java-8-streams.png" alt="Java 8 Streams"&gt;&lt;/p&gt;
+&lt;h2 id="1-kỷ-nguyên-lập-trình-hàm-functional-programming"&gt;1. Kỷ nguyên lập trình hàm (Functional Programming)&lt;/h2&gt;
+&lt;p&gt;Java 8 đánh dấu một bước ngoặt lớn khi giới thiệu các khái niệm &lt;strong&gt;Functional Programming&lt;/strong&gt; như Lambda Expression, Functional Interface, và Stream API. Lập trình hàm giúp mã nguồn ngắn gọn, giảm bớt các trạng thái (state) dư thừa và dễ bảo trì hơn so với mô hình OOP thuần túy trước đây.&lt;/p&gt;
+&lt;h3 id="11-lambda-expression"&gt;1.1 Lambda Expression&lt;/h3&gt;
+&lt;p&gt;Lambda Expression cho phép bạn truyền &lt;strong&gt;hành vi (behavior)&lt;/strong&gt; như một tham số, giúp loại bỏ các lớp ẩn danh (anonymous classes) dài dòng.&lt;/p&gt;</description></item><item><title>JavaScript Event Loop – Hiểu đúng để làm chủ bất đồng bộ</title><link>http://localhost:1313/blog/js-event-loop/</link><pubDate>Fri, 26 Dec 2025 22:30:00 +0700</pubDate><guid>http://localhost:1313/blog/js-event-loop/</guid><description>&lt;p&gt;&lt;img src="http://localhost:1313/img/blog/js-event-loop.png" alt="Sự kiện vòng lặp trong Javascript"&gt;&lt;/p&gt;
+&lt;h2 id="1-javascript-là-single-threaded-nhưng-không-hề-đơn-giản"&gt;1. JavaScript là Single-threaded, nhưng không hề đơn giản&lt;/h2&gt;
+&lt;p&gt;JavaScript thường bị hiểu lầm là “chậm” vì chỉ chạy trên một luồng duy nhất. Thực tế, chính mô hình &lt;strong&gt;single-threaded&lt;/strong&gt; kết hợp với &lt;strong&gt;non-blocking I/O&lt;/strong&gt; đã giúp JavaScript trở thành nền tảng cốt lõi của web hiện đại.&lt;/p&gt;
+&lt;p&gt;JavaScript chỉ có một &lt;strong&gt;Call Stack&lt;/strong&gt;, đồng nghĩa với việc tại một thời điểm, chỉ có một đoạn code được thực thi. Tuy nhiên, các tác vụ nặng như &lt;code&gt;setTimeout&lt;/code&gt;, HTTP request, hay File I/O sẽ được ủy quyền cho môi trường thực thi (Browser hoặc Node.js) xử lý.&lt;/p&gt;</description></item><item><title>Closure &amp; Prototype trong JavaScript – Nền tảng quyền lực nhưng dễ bị hiểu sai</title><link>http://localhost:1313/blog/js-closure-prototype/</link><pubDate>Fri, 26 Dec 2025 23:15:00 +0700</pubDate><guid>http://localhost:1313/blog/js-closure-prototype/</guid><description>&lt;h2 id="1-closure-là-gì"&gt;1. Closure là gì?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Closure&lt;/strong&gt; là khả năng của một hàm ghi nhớ và truy cập được các biến nằm ngoài phạm vi (scope) của nó, ngay cả khi hàm bên ngoài đã thực thi xong. Nói cách khác, một hàm luôn “đi kèm” với lexical scope nơi nó được khai báo.&lt;/p&gt;
+&lt;h3 id="ví-dụ-cơ-bản"&gt;Ví dụ cơ bản:&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-javascript" data-lang="javascript"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#cf222e"&gt;function&lt;/span&gt; &lt;span style="color:#1f2328"&gt;outer&lt;/span&gt;&lt;span style="color:#1f2328"&gt;()&lt;/span&gt; &lt;span style="color:#1f2328"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#cf222e"&gt;let&lt;/span&gt; &lt;span style="color:#1f2328"&gt;count&lt;/span&gt; &lt;span style="color:#0550ae"&gt;=&lt;/span&gt; &lt;span style="color:#0550ae"&gt;0&lt;/span&gt;&lt;span style="color:#1f2328"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#cf222e"&gt;return&lt;/span&gt; &lt;span style="color:#cf222e"&gt;function&lt;/span&gt; &lt;span style="color:#1f2328"&gt;inner&lt;/span&gt;&lt;span style="color:#1f2328"&gt;()&lt;/span&gt; &lt;span style="color:#1f2328"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#1f2328"&gt;count&lt;/span&gt;&lt;span style="color:#0550ae"&gt;++&lt;/span&gt;&lt;span style="color:#1f2328"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#cf222e"&gt;return&lt;/span&gt; &lt;span style="color:#1f2328"&gt;count&lt;/span&gt;&lt;span style="color:#1f2328"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#1f2328"&gt;};&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#1f2328"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#cf222e"&gt;const&lt;/span&gt; &lt;span style="color:#1f2328"&gt;counter&lt;/span&gt; &lt;span style="color:#0550ae"&gt;=&lt;/span&gt; &lt;span style="color:#1f2328"&gt;outer&lt;/span&gt;&lt;span style="color:#1f2328"&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#1f2328"&gt;console&lt;/span&gt;&lt;span style="color:#1f2328"&gt;.&lt;/span&gt;&lt;span style="color:#1f2328"&gt;log&lt;/span&gt;&lt;span style="color:#1f2328"&gt;(&lt;/span&gt;&lt;span style="color:#1f2328"&gt;counter&lt;/span&gt;&lt;span style="color:#1f2328"&gt;());&lt;/span&gt; &lt;span style="color:#57606a"&gt;// 1
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#1f2328"&gt;console&lt;/span&gt;&lt;span style="color:#1f2328"&gt;.&lt;/span&gt;&lt;span style="color:#1f2328"&gt;log&lt;/span&gt;&lt;span style="color:#1f2328"&gt;(&lt;/span&gt;&lt;span style="color:#1f2328"&gt;counter&lt;/span&gt;&lt;span style="color:#1f2328"&gt;());&lt;/span&gt; &lt;span style="color:#57606a"&gt;// 2
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#1f2328"&gt;console&lt;/span&gt;&lt;span style="color:#1f2328"&gt;.&lt;/span&gt;&lt;span style="color:#1f2328"&gt;log&lt;/span&gt;&lt;span style="color:#1f2328"&gt;(&lt;/span&gt;&lt;span style="color:#1f2328"&gt;counter&lt;/span&gt;&lt;span style="color:#1f2328"&gt;());&lt;/span&gt; &lt;span style="color:#57606a"&gt;// 3
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Mặc dù outer() đã chạy xong, biến count vẫn tồn tại trong bộ nhớ vì inner() đang giữ tham chiếu đến nó. Đây chính là sức mạnh của Closure.&lt;/p&gt;</description></item><item><title>Tối ưu hiệu năng Frontend – DOM, Virtual DOM và Event Delegation</title><link>http://localhost:1313/blog/js-dom-performance/</link><pubDate>Fri, 26 Dec 2025 23:45:00 +0700</pubDate><guid>http://localhost:1313/blog/js-dom-performance/</guid><description>&lt;h2 id="1-dom-là-gì-và-tại-sao-nó-chậm"&gt;1. DOM là gì và tại sao nó chậm?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;DOM (Document Object Model)&lt;/strong&gt; là cấu trúc dạng cây đại diện cho toàn bộ HTML của trang web. Trình duyệt sử dụng DOM để render giao diện, gắn CSS và lắng nghe sự kiện.&lt;/p&gt;
+&lt;p&gt;Rất nhiều website chậm không phải vì logic phức tạp, mà vì &lt;strong&gt;thao tác với DOM sai cách&lt;/strong&gt;. Mỗi khi DOM thay đổi, trình duyệt phải thực hiện chuỗi tác vụ tốn kém:&lt;/p&gt;</description></item><item><title>Module Bundler, NPM và ES Modules – Nền tảng hệ sinh thái JavaScript hiện đại</title><link>http://localhost:1313/blog/js-modern-tooling/</link><pubDate>Fri, 26 Dec 2025 23:55:00 +0700</pubDate><guid>http://localhost:1313/blog/js-modern-tooling/</guid><description>&lt;h2 id="1-tại-sao-cần-module-bundler"&gt;1. Tại sao cần Module Bundler?&lt;/h2&gt;
+&lt;p&gt;Trong các dự án nhỏ, ta có thể nhúng trực tiếp nhiều thẻ &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt;. Tuy nhiên, khi dự án lớn dần, cách làm này bộc lộ nhiều nhược điểm: khó quản lý thứ tự load, dễ trùng biến global, tốn nhiều HTTP requests và khó tối ưu hiệu năng.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Module Bundler&lt;/strong&gt; (Webpack, Vite, Rollup&amp;hellip;) ra đời để:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Phân tích đồ thị phụ thuộc (&lt;strong&gt;Dependency Graph&lt;/strong&gt;).&lt;/li&gt;
+&lt;li&gt;Gộp nhiều file thành một hoặc vài gói (&lt;strong&gt;Bundle&lt;/strong&gt;).&lt;/li&gt;
+&lt;li&gt;Loại bỏ code thừa (&lt;strong&gt;Tree Shaking&lt;/strong&gt;) và nén code (&lt;strong&gt;Minify&lt;/strong&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="ví-dụ-đơn-giản"&gt;Ví dụ đơn giản:&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-javascript" data-lang="javascript"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#57606a"&gt;// math.js
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#cf222e"&gt;export&lt;/span&gt; &lt;span style="color:#cf222e"&gt;function&lt;/span&gt; &lt;span style="color:#1f2328"&gt;add&lt;/span&gt;&lt;span style="color:#1f2328"&gt;(&lt;/span&gt;&lt;span style="color:#1f2328"&gt;a&lt;/span&gt;&lt;span style="color:#1f2328"&gt;,&lt;/span&gt; &lt;span style="color:#1f2328"&gt;b&lt;/span&gt;&lt;span style="color:#1f2328"&gt;)&lt;/span&gt; &lt;span style="color:#1f2328"&gt;{&lt;/span&gt; &lt;span style="color:#cf222e"&gt;return&lt;/span&gt; &lt;span style="color:#1f2328"&gt;a&lt;/span&gt; &lt;span style="color:#0550ae"&gt;+&lt;/span&gt; &lt;span style="color:#1f2328"&gt;b&lt;/span&gt;&lt;span style="color:#1f2328"&gt;;&lt;/span&gt; &lt;span style="color:#1f2328"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#57606a"&gt;// app.js
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#cf222e"&gt;import&lt;/span&gt; &lt;span style="color:#1f2328"&gt;{&lt;/span&gt; &lt;span style="color:#1f2328"&gt;add&lt;/span&gt; &lt;span style="color:#1f2328"&gt;}&lt;/span&gt; &lt;span style="color:#1f2328"&gt;from&lt;/span&gt; &lt;span style="color:#0a3069"&gt;&amp;#34;./math.js&amp;#34;&lt;/span&gt;&lt;span style="color:#1f2328"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#1f2328"&gt;console&lt;/span&gt;&lt;span style="color:#1f2328"&gt;.&lt;/span&gt;&lt;span style="color:#1f2328"&gt;log&lt;/span&gt;&lt;span style="color:#1f2328"&gt;(&lt;/span&gt;&lt;span style="color:#1f2328"&gt;add&lt;/span&gt;&lt;span style="color:#1f2328"&gt;(&lt;/span&gt;&lt;span style="color:#0550ae"&gt;2&lt;/span&gt;&lt;span style="color:#1f2328"&gt;,&lt;/span&gt; &lt;span style="color:#0550ae"&gt;3&lt;/span&gt;&lt;span style="color:#1f2328"&gt;));&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Bundler sẽ gom lại thành một file duy nhất được tối ưu:&lt;/p&gt;</description></item><item><title>Job #3</title><link>http://localhost:1313/experience/job-3/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0100</pubDate><guid>http://localhost:1313/experience/job-3/</guid><description>&lt;h2 id="3rd-job-cio"&gt;3rd job: CIO&lt;/h2&gt;
+&lt;p&gt;As Chief Information Officer at Internet Affairs Inc., I lead the strategic transformation of our digital infrastructure and cybersecurity initiatives. My team of 150+ IT professionals works tirelessly to protect and optimize our global network spanning 23 countries.&lt;/p&gt;
+&lt;p&gt;During my tenure, I&amp;rsquo;ve spearheaded the implementation of a revolutionary blockchain-based verification system that reduced fraudulent transactions by 87% while improving processing speeds by 300%. This initiative saved the company $12M annually and earned us the prestigious &amp;ldquo;Digital Innovation Award 2024&amp;rdquo;.&lt;/p&gt;</description></item><item><title>Graziella Nutella</title><link>http://localhost:1313/testimonial/graziella-nutella/</link><pubDate>Mon, 25 Nov 2024 21:53:18 +0100</pubDate><guid>http://localhost:1313/testimonial/graziella-nutella/</guid><description>&lt;p&gt;The content of this section comes from the &lt;code&gt;content/testimonial&lt;/code&gt; folder contents. This that you see is in &lt;code&gt;content/testimonial/graziella-nutella.md&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;You can also use parameters for configuration:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;name: &amp;#34;Nutting Hill&amp;#34; # place/city/country for the experience. Fill-in.
+position: &amp;#34;Nutcracker&amp;#34; # from-to, for example &amp;#34;2022-2024&amp;#34;. Fill-in.
+
+params:
+ image:
+ src: &amp;#34;images/testimonials/testimonial1.png&amp;#34; # example: &amp;#34;images/clients/asgardia.png&amp;#34;
+ scale: 0.5
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>Dana Oneal</title><link>http://localhost:1313/testimonial/dana-oneal/</link><pubDate>Mon, 25 Nov 2024 21:50:45 +0100</pubDate><guid>http://localhost:1313/testimonial/dana-oneal/</guid><description>&lt;p&gt;I had the pleasure of working with this freelancer on several projects, and their performance has been nothing short of outstanding. They bring a high level of expertise, creativity, and dedication to every task. Their ability to understand project requirements and deliver exceptional results on time is truly impressive. They are a reliable and proactive professional who consistently exceeds expectations. I highly recommend this freelancer to anyone seeking top-notch skills and a collaborative partner.&lt;/p&gt;</description></item><item><title>Ferdinand Shermand</title><link>http://localhost:1313/testimonial/ferdinand-shermand/</link><pubDate>Mon, 25 Nov 2024 21:30:46 +0100</pubDate><guid>http://localhost:1313/testimonial/ferdinand-shermand/</guid><description>&lt;p&gt;Working with this colleague has been an absolute pleasure. Their dedication, professionalism, and positive attitude make them an invaluable asset to our team. They consistently go above and beyond to ensure that projects are completed on time and to the highest standard. Their ability to collaborate effectively and support their colleagues is truly commendable. I am continually impressed by their innovative thinking and problem-solving skills. This colleague is not just a team member but a true inspiration and a driving force behind our team’s success.&lt;/p&gt;</description></item><item><title>Ztos</title><link>http://localhost:1313/client-work/ztos/</link><pubDate>Sun, 25 Aug 2024 10:23:39 +0200</pubDate><guid>http://localhost:1313/client-work/ztos/</guid><description/></item><item><title>Zoo</title><link>http://localhost:1313/client-work/zoo/</link><pubDate>Sun, 25 Aug 2024 10:23:08 +0200</pubDate><guid>http://localhost:1313/client-work/zoo/</guid><description/></item><item><title>Kanba</title><link>http://localhost:1313/client-work/kanba/</link><pubDate>Sun, 25 Aug 2024 10:22:34 +0200</pubDate><guid>http://localhost:1313/client-work/kanba/</guid><description/></item><item><title>Goldline</title><link>http://localhost:1313/client-work/goldline/</link><pubDate>Sun, 25 Aug 2024 10:21:48 +0200</pubDate><guid>http://localhost:1313/client-work/goldline/</guid><description/></item><item><title>Earth 2.0</title><link>http://localhost:1313/client-work/earth2.0/</link><pubDate>Sun, 25 Aug 2024 10:17:12 +0200</pubDate><guid>http://localhost:1313/client-work/earth2.0/</guid><description/></item><item><title>3D Model Customize</title><link>http://localhost:1313/projects/3d-model-customize/</link><pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate><guid>http://localhost:1313/projects/3d-model-customize/</guid><description>&lt;p&gt;Ứng dụng tạo Avatar 3D đa nền tảng xây dựng bằng Flutter. Dự án tích hợp WebGL để render mô hình 3D tương tác trên Web, có thể tạo avatar 3D trên đó và sử dụng AR để đưa nhân vật vào không gian thực. Một dự án minh chứng cho khả năng làm chủ các công nghệ hiển thị tiên tiến và xử lý tương tác người dùng phức tạp.&lt;/p&gt;</description></item><item><title>Asgardia</title><link>http://localhost:1313/client-work/asgardia/</link><pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate><guid>http://localhost:1313/client-work/asgardia/</guid><description/></item><item><title>High School of Hard Knocks</title><link>http://localhost:1313/education/high-school/</link><pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate><guid>http://localhost:1313/education/high-school/</guid><description/></item><item><title>Orbis casual game in Unity</title><link>http://localhost:1313/projects/orbis-game-unity/</link><pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate><guid>http://localhost:1313/projects/orbis-game-unity/</guid><description>&lt;p&gt;Orbits Unity Game là một dự án game 2D thuộc thể loại Casual, được xây dựng trên nền tảng Unity với ngôn ngữ lập trình C#. Dự án tập trung vào việc xử lý tương tác vật lý giữa các vật thể chuyển động tròn và tối ưu hóa trải nghiệm người chơi trên thiết bị. Qua dự án này, tôi đã áp dụng các nguyên lý lập trình hướng đối tượng (OOP) để xây dựng hệ thống quản lý điểm số, vòng đời nhân vật và các hiệu ứng hình ảnh tối giản nhưng bắt mắt.&lt;/p&gt;</description></item><item><title>Reactjs Quiz Website</title><link>http://localhost:1313/projects/radity-finance-uikit/</link><pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate><guid>http://localhost:1313/projects/radity-finance-uikit/</guid><description>&lt;p&gt;React Quiz Application là một ứng dụng web trắc nghiệm trực tuyến được xây dựng nhằm tối ưu hóa trải nghiệm học tập và kiểm tra kiến thức. Dự án sử dụng ReactJS để quản lý luồng dữ liệu phức tạp, từ việc điều hướng các bộ câu hỏi đến việc xử lý logic tính điểm thời gian thực. Với giao diện trực quan và phản hồi nhanh nhạy, ứng dụng minh chứng cho khả năng xây dựng các Single Page Application (SPA) có tính tương tác cao và quản lý trạng thái ứng dụng chặt chẽ.&lt;/p&gt;</description></item><item><title>University of Life</title><link>http://localhost:1313/education/university-of-life/</link><pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate><guid>http://localhost:1313/education/university-of-life/</guid><description/></item><item><title>Breaking News</title><link>http://localhost:1313/news/breaking-news/</link><pubDate>Thu, 25 Jan 2024 16:45:00 +0000</pubDate><guid>http://localhost:1313/news/breaking-news/</guid><description>&lt;p&gt;This is breaking news content demonstrating how different sections can contain different types of content while using the same underlying Hugo section functionality.&lt;/p&gt;
+&lt;h2 id="news-section-benefits"&gt;News Section Benefits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Separate URL space&lt;/strong&gt;: &lt;code&gt;/news/&lt;/code&gt; vs &lt;code&gt;/articles/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Different content structure&lt;/strong&gt;: News vs long-form articles&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Independent RSS feeds&lt;/strong&gt;: &lt;code&gt;/news/index.xml&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Custom styling&lt;/strong&gt;: Different templates if needed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This allows for clear content separation while maintaining consistency in the overall site structure.&lt;/p&gt;</description></item><item><title>Advanced Hugo Sections</title><link>http://localhost:1313/articles/second-article/</link><pubDate>Sat, 20 Jan 2024 14:30:00 +0000</pubDate><guid>http://localhost:1313/articles/second-article/</guid><description>&lt;p&gt;This is the second article, demonstrating how multiple articles appear in the same section.&lt;/p&gt;
+&lt;h2 id="advanced-section-features"&gt;Advanced Section Features&lt;/h2&gt;
+&lt;p&gt;Hugo sections provide powerful features for content organization:&lt;/p&gt;
+&lt;h3 id="custom-section-templates"&gt;Custom Section Templates&lt;/h3&gt;
+&lt;p&gt;You can create custom templates for each section by placing them in &lt;code&gt;layouts/SECTION/&lt;/code&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;layouts/articles/list.html&lt;/code&gt; - for &lt;code&gt;/articles/&lt;/code&gt; page&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;layouts/articles/single.html&lt;/code&gt; - for individual articles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="section-variables"&gt;Section Variables&lt;/h3&gt;
+&lt;p&gt;In templates, you can access section-specific data:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#1f2328"&gt;{{&lt;/span&gt;&lt;span style="color:#fff"&gt; &lt;/span&gt;&lt;span style="color:#1f2328"&gt;.&lt;/span&gt;&lt;span style="color:#1f2328"&gt;Section&lt;/span&gt;&lt;span style="color:#fff"&gt; &lt;/span&gt;&lt;span style="color:#1f2328"&gt;}}&lt;/span&gt;&lt;span style="color:#fff"&gt; &lt;/span&gt;&lt;span style="color:#57606a"&gt;// &amp;#34;articles&amp;#34;&lt;/span&gt;&lt;span style="color:#fff"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#1f2328"&gt;{{&lt;/span&gt;&lt;span style="color:#fff"&gt; &lt;/span&gt;&lt;span style="color:#1f2328"&gt;.&lt;/span&gt;&lt;span style="color:#1f2328"&gt;Type&lt;/span&gt;&lt;span style="color:#fff"&gt; &lt;/span&gt;&lt;span style="color:#1f2328"&gt;}}&lt;/span&gt;&lt;span style="color:#fff"&gt; &lt;/span&gt;&lt;span style="color:#57606a"&gt;// content type&lt;/span&gt;&lt;span style="color:#fff"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#1f2328"&gt;{{&lt;/span&gt;&lt;span style="color:#fff"&gt; &lt;/span&gt;&lt;span style="color:#1f2328"&gt;.&lt;/span&gt;&lt;span style="color:#1f2328"&gt;Pages&lt;/span&gt;&lt;span style="color:#fff"&gt; &lt;/span&gt;&lt;span style="color:#1f2328"&gt;}}&lt;/span&gt;&lt;span style="color:#fff"&gt; &lt;/span&gt;&lt;span style="color:#57606a"&gt;// all pages in section&lt;/span&gt;&lt;span style="color:#fff"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#1f2328"&gt;{{&lt;/span&gt;&lt;span style="color:#fff"&gt; &lt;/span&gt;&lt;span style="color:#1f2328"&gt;.&lt;/span&gt;&lt;span style="color:#1f2328"&gt;RegularPages&lt;/span&gt;&lt;span style="color:#fff"&gt; &lt;/span&gt;&lt;span style="color:#1f2328"&gt;}}&lt;/span&gt;&lt;span style="color:#fff"&gt; &lt;/span&gt;&lt;span style="color:#57606a"&gt;// only regular pages&lt;/span&gt;&lt;span style="color:#fff"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="taxonomies-per-section"&gt;Taxonomies per Section&lt;/h3&gt;
+&lt;p&gt;Each section can have its own taxonomies (tags, categories) with independent organization.&lt;/p&gt;</description></item><item><title>First Article</title><link>http://localhost:1313/articles/first-article/</link><pubDate>Mon, 15 Jan 2024 10:00:00 +0000</pubDate><guid>http://localhost:1313/articles/first-article/</guid><description>&lt;p&gt;This is the first article content. Hugo sections allow you to organize content into logical groups, and each section gets its own URL path.&lt;/p&gt;
+&lt;h2 id="what-are-hugo-sections"&gt;What are Hugo Sections?&lt;/h2&gt;
+&lt;p&gt;Hugo sections are a way to organize your content into logical groups. When you create a folder under &lt;code&gt;content/&lt;/code&gt;, Hugo automatically treats it as a section.&lt;/p&gt;
+&lt;h2 id="benefits-of-using-sections"&gt;Benefits of Using Sections&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Organization&lt;/strong&gt;: Keep related content together&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;URLs&lt;/strong&gt;: Automatic URL structure (&lt;code&gt;/articles/&lt;/code&gt;, &lt;code&gt;/news/&lt;/code&gt;, etc.)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Templates&lt;/strong&gt;: Custom layouts for different content types&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RSS&lt;/strong&gt;: Each section gets its own RSS feed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="example-structure"&gt;Example Structure&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;content/
+├── articles/
+│ ├── _index.md
+│ ├── first-article.md
+│ └── second-article.md
+└── news/
+ ├── _index.md
+ └── breaking-news.md
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This creates accessible URLs like:&lt;/p&gt;</description></item><item><title>Trabajo #3</title><link>http://localhost:1313/experience/job-3.es-copy/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0100</pubDate><guid>http://localhost:1313/experience/job-3.es-copy/</guid><description>&lt;h2 id="arreglando-el-mundo-un-byte-a-la-vez"&gt;Arreglando el mundo, un byte a la vez&lt;/h2&gt;
+&lt;p&gt;¡Adquisición hostil - ¿quién es el jefe ahora?!&lt;/p&gt;</description></item><item><title>Job #2</title><link>http://localhost:1313/experience/job-2/</link><pubDate>Fri, 01 Dec 2023 00:00:00 +0100</pubDate><guid>http://localhost:1313/experience/job-2/</guid><description>&lt;h2 id="2nd-job-chief-intern"&gt;2nd job: Chief Intern&lt;/h2&gt;
+&lt;p&gt;As Chief Intern at Internet Affairs Inc., I led several key initiatives that helped streamline our internal processes and boost productivity. Working closely with cross-functional teams, I developed and implemented an automated documentation system that reduced report generation time by 65% and improved accuracy by 40%.&lt;/p&gt;
+&lt;p&gt;During my internship, I spearheaded the company&amp;rsquo;s first-ever &amp;ldquo;Innovation Lab&amp;rdquo; program, where I mentored junior interns and coordinated weekly brainstorming sessions. This initiative resulted in three patent-pending solutions and garnered attention from senior management. The program has since been adopted as a permanent fixture in the company&amp;rsquo;s internship structure.&lt;/p&gt;</description></item><item><title>Job #1</title><link>http://localhost:1313/experience/job-1/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0100</pubDate><guid>http://localhost:1313/experience/job-1/</guid><description>&lt;h2 id="1st-job-junior-intern"&gt;1st job: Junior Intern&lt;/h2&gt;
+&lt;p&gt;The beginning of a great career. As a Junior Intern at Internet Affairs Inc., I had the opportunity to work on various projects that helped me develop my technical and professional skills. Working alongside experienced developers, I contributed to the company&amp;rsquo;s core web applications and learned industry best practices in software development.&lt;/p&gt;
+&lt;p&gt;During my internship, I took the initiative to create an internal documentation wiki that improved knowledge sharing across teams. This project taught me valuable lessons in technical writing and collaboration. I also participated in code reviews and daily stand-ups, gaining firsthand experience in agile development methodologies.&lt;/p&gt;</description></item><item><title>Footer</title><link>http://localhost:1313/footer/footer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/footer/footer/</guid><description>&lt;section id="contact" class="section section--contact pt-0"&gt;
+ &lt;div class="container"&gt;
+ &lt;div class="contact w-100"&gt;
+ &lt;h2&gt;Reach out&lt;/h2&gt;
+
+ &lt;div class="row pt-2"&gt;
+ &lt;div class="col-12 col-lg-7"&gt;
+ &lt;form action="https://formspree.io/f/huynhtrunghau2101@gmail.com" method="POST" class="contact__form"&gt;
+ &lt;div class="row"&gt;
+ &lt;div class="col-12 col-sm-6"&gt;
+ &lt;input type="text" name="full_name" class="form-control" placeholder="Your name"&gt;
+ &lt;/div&gt;
+ &lt;div class="col-12 col-sm-6"&gt;
+ &lt;input type="email" name="email" class="form-control" placeholder="Your e-mail"&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="row pt-4"&gt;
+ &lt;div class="col-12"&gt;
+ &lt;input type="tel" name="phone" class="form-control" placeholder="Your phone"&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="row pt-4"&gt;
+ &lt;div class="col-12"&gt;
+ &lt;textarea name="message" class="form-control" rows="3" placeholder="Your text"&gt;&lt;/textarea&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="row pt-4"&gt;
+ &lt;div class="col-12"&gt;
+ &lt;button type="submit" class="btn btn-primary"&gt;Send message&lt;/button&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/form&gt;
+ &lt;/div&gt;
+ &lt;div class="col-12 col-lg-5 contact__info"&gt;
+ 
+ &lt;h3&gt;My phone&lt;/h3&gt;
+ &lt;span&gt;&lt;a href='tel:+84369369761'&gt;0369 369 761&lt;/a&gt;&lt;/span&gt;
+ 
+
+ 
+ &lt;h3&gt;My mail&lt;/h3&gt;
+ &lt;span&gt;&lt;a href='mailto:huynhtrunghau04kg@gmail.com'&gt;huynhtrunghau04kg@gmail.com&lt;/a&gt;&lt;/span&gt;
+ 
+ 
+ 
+ &lt;h3&gt;My location&lt;/h3&gt;
+ &lt;span&gt;🇻🇳 VietNam&lt;/span&gt;
+ 
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/section&gt;</description></item><item><title>Home</title><link>http://localhost:1313/home/home/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/home/home/</guid><description>&lt;section id="showcase" class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down"&gt;
+ &lt;div id="main-content"&gt;
+ 
+
+
+ 
+
+ &lt;div class="showcase-section row flex-column-reverse flex-md-row rad-fade-down rad-waiting rad-animate"&gt;
+ &lt;div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"&gt;
+ &lt;h1 class="display-1"&gt;
+ Chào mừng đến với Blog của Trung Hậu
+ &lt;/h1&gt;
+ &lt;h2 class="display-5"&gt;
+ &lt;span&gt;Nơi chia sẻ kiến thức về &lt;strong&gt;Lập trình&lt;/strong&gt; &amp; &lt;strong&gt;Công nghệ&lt;/strong&gt;&lt;/span&gt;
+ &lt;/h2&gt;
+ &lt;div class="lead"&gt;
+ Kết nối với mình qua các nền tảng dưới đây nhé! &lt;br&gt;&lt;code&gt;platform-links&lt;/code&gt;
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ &lt;div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 profile-image"&gt;
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ &lt;/div&gt;
+ &lt;div class="col-12 inner-content"&gt;
+ 
+
+
+
+
+
+&lt;div class="container"&gt;
+ &lt;div class="row platform-links shortcode"&gt;
+ &lt;div class="col-12"&gt;
+ 
+ 
+ &lt;a
+ href="https://www.facebook.com/TrungH4u"
+ target="_blank"
+ rel="noopener noreferrer"
+ aria-label="square-facebook"
+ &gt;&lt;i class="icon-square-facebook"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+
+ 
+ 
+ &lt;a
+ href="https://github.com/NerdKandev"
+ target="_blank"
+ rel="noopener noreferrer"
+ aria-label="square-github"
+ &gt;&lt;i class="icon-square-github"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+
+ 
+ 
+ &lt;a
+ href="https://x.com/TrungHa13847983"
+ target="_blank"
+ rel="noopener noreferrer"
+ aria-label="x-twitter"
+ &gt;&lt;i class="icon-x-twitter"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+
+&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+ &lt;/div&gt;
+ 
+
+ &lt;/div&gt;
+
+
+ &lt;div class="row platform-links"&gt;
+ &lt;div class="col-12"&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ 
+&lt;/section&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;section class="about-section h-left v-center"&gt;
+ 
+ &lt;div class="about-image"&gt;
+ &lt;img
+ src="http://localhost:1313/img/home/my-avatar.png"
+ alt="My Avatar"
+ style="width: calc(100% * 1); height: auto;"
+ loading="lazy"
+ &gt;
+ &lt;/div&gt;
+
+ &lt;div class="about-content"&gt;
+ &lt;h2&gt;About me&lt;/h2&gt;
+ &lt;p&gt;Chào bạn, mình là &lt;strong&gt;Trung Hậu&lt;/strong&gt;. &lt;br/&gt;Một lập trình viên luôn khao khát xây dựng những sản phẩm công nghệ có giá trị thực tiễn. &lt;/br&gt;&lt;strong&gt;Blog này&lt;/strong&gt; là nơi mình lưu trữ và chia sẻ những kiến thức về &lt;code&gt;Java&lt;/code&gt;, &lt;code&gt;JavaScript&lt;/code&gt; trong quá trình học tập và làm việc&lt;/p&gt;</description></item><item><title>Printable CV</title><link>http://localhost:1313/cv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/cv/</guid><description>&lt;p&gt;ℹ This page is a demo of the printer-friendly output of the theme. You can find the source code in the demo repo (&lt;a href="https://raw.githubusercontent.com/zetxek/adritian-demo/refs/heads/main/content/cv.md%29"&gt;https://raw.githubusercontent.com/zetxek/adritian-demo/refs/heads/main/content/cv.md)&lt;/a&gt;. Try printing it directly from your browser!&lt;/p&gt;
+&lt;h3 id="about-me"&gt;About me&lt;/h3&gt;
+&lt;p&gt;I am a passionate software engineer with over 10 years of experience building web applications and distributed systems. My expertise spans full-stack development, cloud architecture, and leading engineering teams to deliver impactful solutions. I thrive on solving complex technical challenges while mentoring others and fostering a collaborative engineering culture.&lt;/p&gt;</description></item><item><title>Search</title><link>http://localhost:1313/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/search/</guid><description>search</description></item></channel></rss>

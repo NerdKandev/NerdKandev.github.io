@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Homes on Trung Hau Blog</title><link>http://localhost:1313/home/</link><description>Recent content in Homes on Trung Hau Blog</description><generator>Hugo</generator><language>en</language><atom:link href="http://localhost:1313/home/index.xml" rel="self" type="application/rss+xml"/><item><title>Home</title><link>http://localhost:1313/home/home/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/home/home/</guid><description>&lt;section id="showcase" class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down"&gt;
+ &lt;div id="main-content"&gt;
+ 
+
+
+ 
+
+ &lt;div class="showcase-section row flex-column-reverse flex-md-row rad-fade-down rad-waiting rad-animate"&gt;
+ &lt;div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"&gt;
+ &lt;h1 class="display-1"&gt;
+ Chào mừng đến với Blog của Trung Hậu
+ &lt;/h1&gt;
+ &lt;h2 class="display-5"&gt;
+ &lt;span&gt;Nơi chia sẻ kiến thức về &lt;strong&gt;Lập trình&lt;/strong&gt; &amp; &lt;strong&gt;Công nghệ&lt;/strong&gt;&lt;/span&gt;
+ &lt;/h2&gt;
+ &lt;div class="lead"&gt;
+ Kết nối với mình qua các nền tảng dưới đây nhé! &lt;br&gt;&lt;code&gt;platform-links&lt;/code&gt;
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ &lt;div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 profile-image"&gt;
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ &lt;/div&gt;
+ &lt;div class="col-12 inner-content"&gt;
+ 
+
+
+
+
+
+&lt;div class="container"&gt;
+ &lt;div class="row platform-links shortcode"&gt;
+ &lt;div class="col-12"&gt;
+ 
+ 
+ &lt;a
+ href="https://www.facebook.com/TrungH4u"
+ target="_blank"
+ rel="noopener noreferrer"
+ aria-label="square-facebook"
+ &gt;&lt;i class="icon-square-facebook"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+
+ 
+ 
+ &lt;a
+ href="https://github.com/NerdKandev"
+ target="_blank"
+ rel="noopener noreferrer"
+ aria-label="square-github"
+ &gt;&lt;i class="icon-square-github"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+
+ 
+ 
+ &lt;a
+ href="https://x.com/TrungHa13847983"
+ target="_blank"
+ rel="noopener noreferrer"
+ aria-label="x-twitter"
+ &gt;&lt;i class="icon-x-twitter"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+
+&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+ &lt;/div&gt;
+ 
+
+ &lt;/div&gt;
+
+
+ &lt;div class="row platform-links"&gt;
+ &lt;div class="col-12"&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ 
+&lt;/section&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;section class="about-section h-left v-center"&gt;
+ 
+ &lt;div class="about-image"&gt;
+ &lt;img
+ src="http://localhost:1313/img/home/my-avatar.png"
+ alt="My Avatar"
+ style="width: calc(100% * 1); height: auto;"
+ loading="lazy"
+ &gt;
+ &lt;/div&gt;
+
+ &lt;div class="about-content"&gt;
+ &lt;h2&gt;About me&lt;/h2&gt;
+ &lt;p&gt;Chào bạn, mình là &lt;strong&gt;Trung Hậu&lt;/strong&gt;. &lt;br/&gt;Một lập trình viên luôn khao khát xây dựng những sản phẩm công nghệ có giá trị thực tiễn. &lt;/br&gt;&lt;strong&gt;Blog này&lt;/strong&gt; là nơi mình lưu trữ và chia sẻ những kiến thức về &lt;code&gt;Java&lt;/code&gt;, &lt;code&gt;JavaScript&lt;/code&gt; trong quá trình học tập và làm việc&lt;/p&gt;</description></item></channel></rss>
