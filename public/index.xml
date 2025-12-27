@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Trung Hau Blog</title><link>http://localhost:1313/</link><description>Recent content on Trung Hau Blog</description><generator>Hugo</generator><language>en</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>Kiến trúc JVM và Cơ chế quản lý bộ nhớ chuyên sâu trong Java</title><link>http://localhost:1313/blog/jvm-archirecture/</link><pubDate>Sat, 27 Dec 2025 18:00:00 +0700</pubDate><guid>http://localhost:1313/blog/jvm-archirecture/</guid><description>&lt;p&gt;&lt;img src="http://localhost:1313/img/blog/jvm-architecture.png" alt="Kiến trúc JVM"&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Trung Hau Blog</title><link>http://localhost:1313/</link><description>Recent content on Trung Hau Blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 27 Dec 2025 18:00:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>Kiến trúc JVM và Cơ chế quản lý bộ nhớ chuyên sâu trong Java</title><link>http://localhost:1313/blog/jvm-archirecture/</link><pubDate>Sat, 27 Dec 2025 18:00:00 +0700</pubDate><guid>http://localhost:1313/blog/jvm-archirecture/</guid><description>&lt;p&gt;&lt;img src="http://localhost:1313/img/blog/jvm-architecture.png" alt="Kiến trúc JVM"&gt;&lt;/p&gt;
 &lt;h2 id="1-giới-thiệu-về-máy-ảo-java-jvm"&gt;1. Giới thiệu về máy ảo Java (JVM)&lt;/h2&gt;
 &lt;p&gt;JVM (Java Virtual Machine) là trái tim của nền tảng Java, đóng vai trò trung gian giữa chương trình Java và hệ điều hành. Chính JVM là yếu tố giúp Java thực hiện được khẩu hiệu nổi tiếng: &lt;strong&gt;“Write Once, Run Anywhere”&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Thay vì biên dịch trực tiếp sang mã máy của từng hệ điều hành như C/C++, Java được biên dịch thành &lt;strong&gt;Bytecode (.class)&lt;/strong&gt;. Bytecode này không phụ thuộc nền tảng, và JVM trên từng hệ điều hành sẽ chịu trách nhiệm:&lt;/p&gt;</description></item><item><title>Lập trình hướng đối tượng nâng cao: Từ Abstract Class đến Interface</title><link>http://localhost:1313/blog/java-oop/</link><pubDate>Fri, 26 Dec 2025 14:30:00 +0700</pubDate><guid>http://localhost:1313/blog/java-oop/</guid><description>&lt;p&gt;&lt;img src="http://localhost:1313/img/blog/java-oop.png" alt="Sự khác biết giữa abstract và interface"&gt;&lt;/p&gt;
@@ -204,7 +204,34 @@ params:
 
 
 
+
  
+ 
+
+
+
+ 
+ 
+
+
+ &lt;picture class=""&gt;
+ 
+ 
+
+ &lt;source srcset="http://localhost:1313/img/home/background-home_hu_19b03a0d9bd86454.webp 1x, http://localhost:1313/img/home/background-home_hu_c8bec300f87ad234.webp 2x" type="image/webp" /&gt;
+ &lt;source srcset="http://localhost:1313/img/home/background-home_hu_b412e58caf7d8142.jpg 1x, http://localhost:1313/img/home/background-home_hu_9634324c66706281.jpg 2x" type="image/jpeg"&gt;
+
+ &lt;img
+ width="1941"
+ height="1292"
+ class="lozad img-responsive "
+ data-src="http://localhost:1313/img/home/background-home_hu_b412e58caf7d8142.jpg"
+ alt=''
+ src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+ loading="lazy"
+ decoding="async"
+ /&gt;
+ &lt;/picture&gt;
 
 
 
@@ -278,19 +305,237 @@ params:
 
 
 
-&lt;section class="about-section h-left v-center"&gt;
- 
- &lt;div class="about-image"&gt;
- &lt;img
- src="http://localhost:1313/img/home/my-avatar.png"
- alt="My Avatar"
- style="width: calc(100% * 1); height: auto;"
- loading="lazy"
- &gt;
- &lt;/div&gt;
 
- &lt;div class="about-content"&gt;
- &lt;h2&gt;About me&lt;/h2&gt;
- &lt;p&gt;Chào bạn, mình là &lt;strong&gt;Trung Hậu&lt;/strong&gt;. &lt;br/&gt;Một lập trình viên luôn khao khát xây dựng những sản phẩm công nghệ có giá trị thực tiễn. &lt;/br&gt;&lt;strong&gt;Blog này&lt;/strong&gt; là nơi mình lưu trữ và chia sẻ những kiến thức về &lt;code&gt;Java&lt;/code&gt;, &lt;code&gt;JavaScript&lt;/code&gt; trong quá trình học tập và làm việc&lt;/p&gt;</description></item><item><title>Printable CV</title><link>http://localhost:1313/cv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/cv/</guid><description>&lt;p&gt;ℹ This page is a demo of the printer-friendly output of the theme. You can find the source code in the demo repo (&lt;a href="https://raw.githubusercontent.com/zetxek/adritian-demo/refs/heads/main/content/cv.md%29"&gt;https://raw.githubusercontent.com/zetxek/adritian-demo/refs/heads/main/content/cv.md)&lt;/a&gt;. Try printing it directly from your browser!&lt;/p&gt;
+
+
+
+&lt;section id="about" class="section rad-animation-group pb-0"&gt;
+ &lt;div class="rad-fade-down"&gt;
+ &lt;div class="row d-flex flex-column-reverse flex-md-row"&gt;
+ &lt;div class="about__profile-picture col-12 col-md-6"&gt;
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+ 
+ 
+
+
+ &lt;picture class=""&gt;
+ 
+ 
+
+ &lt;source srcset="http://localhost:1313/img/home/my-avatar_hu_3d32472e08726448.webp 1x, http://localhost:1313/img/home/my-avatar_hu_220a0e861d78467b.webp 2x" type="image/webp" /&gt;
+ &lt;source srcset="http://localhost:1313/img/home/my-avatar_hu_b16a46b84a60f6fe.png 1x, http://localhost:1313/img/home/my-avatar_hu_1576779ce6fd09af.png 2x" type="image/png"&gt;
+
+ &lt;img
+ width="512"
+ height="768"
+ class="lozad img-responsive image-left-overflow"
+ data-src="http://localhost:1313/img/home/my-avatar_hu_b16a46b84a60f6fe.png"
+ alt=''
+ src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+ loading="lazy"
+ decoding="async"
+ /&gt;
+ &lt;/picture&gt;
+
+ &lt;/div&gt;
+ &lt;div class="col-12 col-md-6 my-auto"&gt;
+ &lt;h1&gt;About me&lt;/h1&gt;
+ &lt;div class="about-me content lead"&gt;
+ Chào bạn, mình là &lt;strong&gt;Trung Hậu&lt;/strong&gt;. &lt;br/&gt;Một lập trình viên luôn khao khát xây dựng những sản phẩm công nghệ có giá trị thực tiễn. &lt;/br&gt;&lt;strong&gt;Blog này&lt;/strong&gt; là nơi mình lưu trữ và chia sẻ những kiến thức về &lt;code&gt;Java&lt;/code&gt;, &lt;code&gt;JavaScript&lt;/code&gt; trong quá trình học tập và làm việc
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/section&gt;
+
+
+
+
+&lt;section
+ id="education"
+ class="section section--border-bottom rad-animation-group"
+&gt;
+ &lt;div class="container-education"&gt;
+ &lt;div class="row rad-fade-down"&gt;
+ &lt;div class="col-12"&gt;
+ &lt;h2&gt;Formal Education (education-list)&lt;/h2&gt;
+ &lt;div class="row pt-2 pt-md-4"&gt;
+ 
+ &lt;div class="col-12 col-sm-6 mb-4 mb-sm-0"&gt;
+ &lt;div class="education"&gt;
+ &lt;div class="education__date"&gt;2019-2021&lt;/div&gt;
+ &lt;div class="education__title"&gt;Trường THPT Nguyễn Trung Trực&lt;/div&gt;
+ &lt;div class="education__degree"&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="col-12 col-sm-6 mb-4 mb-sm-0"&gt;
+ &lt;div class="education"&gt;
+ &lt;div class="education__date"&gt;2022-2026&lt;/div&gt;
+ &lt;div class="education__title"&gt;Trường Đại Học Công Nghệ TP.HCM&lt;/div&gt;
+ &lt;div class="education__degree"&gt;Sinh viên Công nghệ thông tin - Chuyên ngành Công nghệ phần mềm&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/section&gt;
+
+
+
+
+
+
+&lt;section id="client-and-work-section" class="section section--border-bottom"&gt;
+ &lt;div class="client-works-container"&gt;
+ &lt;h2 class="rad-animation-group rad-fade-down"&gt;
+ A selection of my work
+ &lt;/h2&gt;
+ &lt;div class="row row--padded rad-animation-group rad-fade-down"&gt;
+ &lt;div class="col-12"&gt;
+ &lt;div class="clients"&gt;
+ 
+ &lt;div class="clients__item"&gt;
+ &lt;a href="https://www.adrianmoreno.info" aria-label="Link to the client site for Ztos (opens in a new window)" target="_blank"&gt;
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+ &lt;/a&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="clients__item"&gt;
+ &lt;a href="https://www.adrianmoreno.info" aria-label="Link to the client site for Zoo (opens in a new window)" target="_blank"&gt;
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+ &lt;/a&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="clients__item"&gt;
+ &lt;a href="https://www.adrianmoreno.info" aria-label="Link to the client site for Kanba (opens in a new window)" target="_blank"&gt;
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+ &lt;/a&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="clients__item"&gt;
+ &lt;a href="https://www.adrianmoreno.info" aria-label="Link to the client site for Goldline (opens in a new window)" target="_blank"&gt;
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+ &lt;/a&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="clients__item"&gt;
+ &lt;a href="https://www.adrianmoreno.info" aria-label="Link to the client site for Earth 2.0 (opens in a new window)" target="_blank"&gt;
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+ &lt;/a&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="clients__item"&gt;
+ &lt;a href="https://www.adrianmoreno.info" aria-label="Link to the client site for Asgardia (opens in a new window)" target="_blank"&gt;
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+ &lt;/a&gt;
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ 
+ 
+ 
+ 
+ &lt;div
+ class="row row--padded rad-animation-group rad-fade-down 
+ flex-column-reverse flex-md-row even-row"
+ &gt;
+ 
+ &lt;div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto even"&gt;
+ &lt;h3&gt;Reactjs Quiz Website&lt;/h3&gt;
+ &lt;div class="lead"&gt;
+ &lt;p&gt;React Quiz Application là một ứng dụng web trắc nghiệm trực tuyến được xây dựng nhằm tối ưu hóa trải nghiệm học tập và kiểm tra kiến thức. Dự án sử dụng ReactJS để quản lý luồng dữ liệu phức tạp, từ việc điều hướng các bộ câu hỏi đến việc xử lý logic tính điểm thời gian thực. Với giao diện trực quan và phản hồi nhanh nhạy, ứng dụng minh chứng cho khả năng xây dựng các Single Page Application (SPA) có tính tương tác cao và quản lý trạng thái ứng dụng chặt chẽ.&lt;/p&gt;</description></item><item><title>Printable CV</title><link>http://localhost:1313/cv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/cv/</guid><description>&lt;p&gt;ℹ This page is a demo of the printer-friendly output of the theme. You can find the source code in the demo repo (&lt;a href="https://raw.githubusercontent.com/zetxek/adritian-demo/refs/heads/main/content/cv.md%29"&gt;https://raw.githubusercontent.com/zetxek/adritian-demo/refs/heads/main/content/cv.md)&lt;/a&gt;. Try printing it directly from your browser!&lt;/p&gt;
 &lt;h3 id="about-me"&gt;About me&lt;/h3&gt;
 &lt;p&gt;I am a passionate software engineer with over 10 years of experience building web applications and distributed systems. My expertise spans full-stack development, cloud architecture, and leading engineering teams to deliver impactful solutions. I thrive on solving complex technical challenges while mentoring others and fostering a collaborative engineering culture.&lt;/p&gt;</description></item><item><title>Search</title><link>http://localhost:1313/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/search/</guid><description>search</description></item></channel></rss>
